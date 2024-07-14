@@ -64,7 +64,7 @@ export const Container = styled.div`
         width: 100%;
         justify-content: center;
 
-        text-align: justify;
+        text-align: center;
 
         font-family: "Roboto", "serif";
         font-weight: 400;
