@@ -9,3 +9,11 @@
 
 ## Feito por 
 *Douglas Rufino Silva*
+
+## Usuários de Teste
+
+### Admin
+*admin@mail.com - 12345678*
+
+### Usuário comum
+*comum@mail.com - 12345678*
