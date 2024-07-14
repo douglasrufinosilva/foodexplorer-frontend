@@ -12,7 +12,7 @@ import { DishItem } from "../../../components/DishItem";
 import { FiChevronLeft, FiUpload } from 'react-icons/fi';
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
-import { ThreeCircles } from "react-loader-spinner";
+import { Watch } from "react-loader-spinner";
 import { toast } from "react-toastify";
 
 export function NewDish () {
@@ -92,8 +92,8 @@ export function NewDish () {
       isLoading ?
       (
         <div className="loader">
-          <ThreeCircles
-          color="#126b37"
+          <Watch
+          color="#0c2344"
           width="120"
           height="100"
           />

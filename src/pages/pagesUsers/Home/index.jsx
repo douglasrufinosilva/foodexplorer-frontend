@@ -11,7 +11,7 @@ import { Section } from "../../../components/Section";
 import { DishUsers } from "../../../components/DishUsers";
 import { Footer } from "../../../components/Footer";
 import { toast } from "react-toastify";
-import { ThreeCircles } from "react-loader-spinner";
+import { Watch } from "react-loader-spinner";
 
 export function Home () {
     const [favorites, setFavorites] = useState([]);
@@ -134,11 +134,12 @@ export function Home () {
           isLoading ? 
           (
           <div className="loader">
-          <ThreeCircles
-          color="#126b37"
+          <Watch
+          color="#0c2344"
           width="100"
           height="100"
           />
+          Carregando cardápio
           </div>
           )
           :

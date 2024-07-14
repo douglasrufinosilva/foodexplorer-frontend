@@ -10,7 +10,7 @@ import { Button } from "../../components/Button";
 import { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
-import { TailSpin } from "react-loader-spinner";
+import { ThreeDots } from "react-loader-spinner";
 
 export function SignUp () {
     const { isLoading, setIsLoading } = useAuth();
@@ -108,8 +108,8 @@ export function SignUp () {
                 isLoading ?
                 (
                 <div className="loader">
-                    <TailSpin
-                    color="#126b37"
+                    <ThreeDots
+                    color="#0c2344"
                     width="60"
                     height="80"
                     />

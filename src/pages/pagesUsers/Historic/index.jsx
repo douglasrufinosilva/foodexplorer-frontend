@@ -12,7 +12,7 @@ import { ButtonText } from "../../../components/ButtonText";
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { HistoricRequest } from "../../../components/HistoricRequest";
-import { Circles } from "react-loader-spinner";
+import { Watch } from "react-loader-spinner";
 
 export function Historic() {
     const { user, isLoading, setIsLoading } = useAuth();
@@ -66,8 +66,8 @@ export function Historic() {
                 isLoading ?
                 (
                     <div className="loader">
-                        <Circles
-                        color="#126b37"
+                        <Watch
+                        color="#0c2344"
                         width="100"
                         height="100"
                         />

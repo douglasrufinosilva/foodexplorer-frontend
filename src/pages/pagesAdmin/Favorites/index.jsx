@@ -13,7 +13,7 @@ import { useNavigate } from "react-router-dom";
 import { Button } from "../../../components/Button";
 import { useEffect, useState } from "react";
 import { toast } from "react-toastify";
-import { ThreeCircles } from "react-loader-spinner";
+import { Watch } from "react-loader-spinner";
 
 export function Favorites () {
     const { isLoading, setIsLoading } = useAuth();
@@ -71,8 +71,8 @@ export function Favorites () {
                 isLoading ?
                 (
                     <div className="loader">
-                        <ThreeCircles
-                        color="#126b37"
+                        <Watch
+                        color="#0c2344"
                         width="120"
                         height="100"
                         />

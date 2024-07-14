@@ -71,11 +71,14 @@ export const Container = styled.div`
     .loader {
         grid-area: main;
         display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
         margin: auto;
         align-items: center;
         justify-content: center;
         height: 60vh;
         animation: lowOpacity 0.4s linear;
+
     }
 
     @keyframes lowOpacity {

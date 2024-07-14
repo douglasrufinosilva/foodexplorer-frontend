@@ -8,7 +8,7 @@ import { Input } from "../../components/Input";
 import { Button } from "../../components/Button";
 
 import { useState, useEffect } from "react";
-import { TailSpin } from "react-loader-spinner";
+import { ThreeDots } from "react-loader-spinner";
 
 export function SignIn () {
     const [email, setEmail] = useState("");
@@ -62,8 +62,8 @@ export function SignIn () {
                 isLoading ?
                 (
                 <div className="loader">
-                    <TailSpin
-                    color="#126b37"
+                    <ThreeDots
+                    color="#0c2344"
                     width="60"
                     height="80"
                     />

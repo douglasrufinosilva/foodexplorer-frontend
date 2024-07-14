@@ -12,7 +12,6 @@ import { api } from "../../../services/api";
 import { useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { Ingredients } from "../../../components/Ingredients";
-import { ThreeDots } from "react-loader-spinner";
 
 export function Menu () {
     const [image, setImage] = useState({});

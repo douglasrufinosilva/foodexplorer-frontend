@@ -12,7 +12,7 @@ import { useAuth } from "../../../hooks/auth";
 import { api } from "../../../services/api";
 import { Ingredients } from "../../../components/Ingredients";
 
-import { ThreeDots } from "react-loader-spinner";
+import { Watch } from "react-loader-spinner";
 
 export function DishView ({ ...rest }) {
     const { isLoading, setIsLoading } = useAuth();
@@ -61,8 +61,8 @@ export function DishView ({ ...rest }) {
                 isLoading ? 
                 (
                     <div className="loader">
-                        <ThreeDots
-                        color="#126b37"
+                        <Watch
+                        color="#0c2344"
                         width="120"
                         height="100"
                         />

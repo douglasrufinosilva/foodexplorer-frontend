@@ -17,7 +17,7 @@ import { AiOutlineShoppingCart } from "react-icons/ai";
 
 import { Ingredients } from "../../../components/Ingredients";
 import { toast } from "react-toastify";
-import { Circles } from "react-loader-spinner";
+import { Watch } from "react-loader-spinner";
 
 
 
@@ -101,8 +101,8 @@ export function DishView ({ ...rest }) {
             isLoading ?
             (
             <div className="loader">
-                <Circles
-                color="#126b37"
+                <Watch
+                color="#0c2344"
                 width="100"
                 height="100"
                 />

@@ -12,7 +12,7 @@ import { useEffect, useState } from "react";
 import { api } from "../../../services/api";
 import { useAuth } from "../../../hooks/auth";
 import { toast } from "react-toastify";
-import { ThreeCircles } from "react-loader-spinner";
+import { Watch } from "react-loader-spinner";
 
 export function EditDish () {
   const { isLoading, setIsLoading } = useAuth();
@@ -125,8 +125,8 @@ export function EditDish () {
       isLoading ?
       (
         <div className="loader">
-          <ThreeCircles
-          color="#126b37"
+          <Watch
+          color="#0c2344"
           width="120"
           height="100"
           />

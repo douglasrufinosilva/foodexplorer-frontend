@@ -13,7 +13,7 @@ import { ButtonText } from "../../../components/ButtonText";
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { ListRequests } from "../../../components/ListRequests";
-import { ThreeCircles } from "react-loader-spinner";
+import { Watch } from "react-loader-spinner";
 import { toast } from "react-toastify";
 
 export function Requests() {
@@ -70,8 +70,8 @@ export function Requests() {
             isLoading ?
             (
             <div className="loader">
-                <ThreeCircles
-                color="#126b37"
+                <Watch
+                color="#0c2344"
                 width="120"
                 height="100"
                 />

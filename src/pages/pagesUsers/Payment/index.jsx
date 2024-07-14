@@ -23,7 +23,7 @@ import { useNavigate } from "react-router-dom";
 import { useCart } from "../../../hooks/cart";
 import { api } from "../../../services/api";
 import { toast } from "react-toastify";
-import { Circles } from "react-loader-spinner";
+import { Watch } from "react-loader-spinner";
 
 export function Payment() {
     const [cart, setCart] = useCart();
@@ -151,8 +151,8 @@ export function Payment() {
             isLoading ? 
             (
                 <div className="loader">
-                    <Circles
-                    color="#126b37"
+                    <Watch
+                    color="#0c2344"
                     width="100"
                     height="100"
                     />

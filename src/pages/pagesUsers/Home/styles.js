@@ -71,6 +71,8 @@ export const Container = styled.div`
     .loader {
         margin: auto;
         display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
         align-items: center;
         justify-content: center;
     }
